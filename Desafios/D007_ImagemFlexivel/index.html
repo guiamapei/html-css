@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexivel</title>
+</head>
+<body>
+    <h1>Aqui tem um fotão meu flexivel de acordo com sua telinha.</h1>
+
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/imagem-p.jpeg" type="image/jpeg">
+        <source media="(max-width: 1008px)" srcset="imagens/imagem-m.jpeg" type="image/jpeg">
+        <img src="Imagens/Imagem-g.jpeg" alt="Imagem Flexivel">
+    </picture>
+</body>
+</html>
